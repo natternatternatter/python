@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>New Dojo</h1>
+    <form action="/new_dojo" method="POST">
+        Name: <input type="text" name="name" id="">
+        <input type="submit">
+    </form>
+    {% for dojo in dojos: %}
+    <h1><a href="/dojos/{{ dojo.id }}">{{ dojo.name }}</a></h1>
+    {% endfor %}
+    <a href="/ninjas">New Ninja</a>
+</body>
+</html>
