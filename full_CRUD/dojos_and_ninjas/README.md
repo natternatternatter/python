@@ -1,4 +1,4 @@
-#dojos_and_ninjas
+# dojos_and_ninjas
 
 <h3>An application to post, view, and purchase cars</h3>
   
@@ -13,7 +13,6 @@
   
 <h3>Demo</h3>
 
-https://user-images.githubusercontent.com/99225070/196593753-f3c5db45-d913-4369-843b-aa1812cbc928.mov
 
 
 <h3>Tech Used</h3>
